@@ -44,10 +44,10 @@ halo:
     tar -zxvf kafka_exporter-1.7.0.linux-amd64.tar.gz -C kafka_exporter-1.7.0
     ```
 
-3. **前台启动程序**
+3. **启动程序**
   
     ```shell
-    ./kafka_exporter --kafka.server=kafka:9092 [--kafka.server=another-server ...]
+    nohup ./kafka_exporter --kafka.server=node01:9092 --kafka.server=node02:9092 --kafka.server=node03:9092 > /dev/null 2>&1 &
     ```
 
 4. **去web上查看是否成功生成metrics数据**
