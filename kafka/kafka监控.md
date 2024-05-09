@@ -1,5 +1,6 @@
 ---
 title: kafka监控
+slug: kafka01
 categories:
   - 大数据技术
   - 消息队列
@@ -8,7 +9,7 @@ tags:
   - 运维
   - 指标监控
 halo:
-  site: http://156.224.24.61:8090
+  site: http://156.224.24.61:8090/
   name: d853bf7a-b003-4cce-a62f-dd62177e885f
   publish: true
 ---
@@ -90,7 +91,7 @@ halo:
 
 3. **查看数据是否被采集到**
 
-    在web中打开网页<http://dmcloud27:9090/targets>，查看是否出现我们的job，成功的情形如下：
+    在web中打开网页<http://10.10.1.27:9090/targets>，查看是否出现我们的job，成功的情形如下：
     ![prometheus_kafka](http://156.224.24.61:8090/upload/Prometheus_kafka.png)
 
     `status`: 服务状态，如果为**up**，表示服务可用
