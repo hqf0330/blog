@@ -1,5 +1,6 @@
 ---
 title: 关于hive分区表不得不说的故事
+slug: hive01
 categories:
   - 大数据技术
   - 数据仓库
@@ -12,7 +13,7 @@ tags:
   - 静态分区
   - 动态分区
 halo:
-  site: http://156.224.24.61:8090
+  site: http://156.224.24.61:8090/
   name: fc4136bc-2bf1-4cfe-aca3-58dc846a578e
   publish: true
 ---
